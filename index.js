@@ -1,12 +1,6 @@
 require("dotenv").config();
-const express = require('express');
-const app = express();
-const port = 3000;
 require('simply-xp')
-app.get('/', (req, res) => res.send('Hello Peeps.'));
-
-app.listen(port, () => console.log(`Example app listening at http://localhost:${port}`));
-
+const keep_alive = require('./keep_alive.js')
 const { Client, Collection } = require("discord.js");
 
 const client = new Client({
