@@ -26,6 +26,7 @@
     "dream-api": "^1.0.8",
     "express": "^4.17.1",
     "glob": "^7.1.7",
+    "http": "^0.0.1-security",
     "moment": "^2.29.1",
     "moment-duration-format": "^2.3.2",
     "mongoose": "^6.0.12",
