@@ -45,4 +45,5 @@ client.on('guildMemberAdd', async (member) => {
     member.roles.add('901444030490083338')
     member.roles.add('901444119468068865')
     member.roles.add('911536167365799937')
+    member.roles.add('1252591088410034257')
 })
