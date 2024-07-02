@@ -10,7 +10,7 @@ client.on("messageCreate", async (message) => {
     const pass = message.guild.roles.cache.find(c => c.name === "Word Pass")
     if (rMember.roles.cache.has(pass.id)) return;
     const arr1 = message.content.toLowerCase().split(" ");
-    const arr2 = ["dead", "die", "mio", "dies"]
+    const arr2 = ["dead", "die", "dies"]
     const found = arr1.some((r) => arr2.indexOf(r) >= 0);
     const embe = new MessageEmbed()
         .setColor('RANDOM')
